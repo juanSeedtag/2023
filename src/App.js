@@ -1,20 +1,9 @@
-import './App.css';
-
-import ResizableContainer from './resizable-container';
-
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <ResizableContainer>
+import React from 'react';
+import UI from './UI';
 
 
-
-        </ResizableContainer>
-      </header>
-    </div>
-  );
+const App = () => {
+    return <UI />
 }
 
 export default App;

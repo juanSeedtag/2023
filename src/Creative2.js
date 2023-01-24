@@ -1,8 +1,8 @@
-import './Creative.css';
+import './Creative2.css';
 import React from 'react';
 
 
-const Creative = ({ logoImg, bgImg, ctaImg, copyImg, selectedOption }) => {
+const Creative2 = ({ logoImg, bgImg, ctaImg, copyImg, selectedOption }) => {
     return (
       <div className={`Creative container block `}>
         <div className={`bg-${selectedOption} block`} style={{ backgroundImage: `url(${bgImg})` }} />
@@ -13,6 +13,4 @@ const Creative = ({ logoImg, bgImg, ctaImg, copyImg, selectedOption }) => {
     );
   }
   
-  export default Creative;
-
-  
+  export default Creative2;
